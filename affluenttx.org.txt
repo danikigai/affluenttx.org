@@ -1,0 +1,39 @@
+;;
+;; Domain:     affluenttx.org.
+;; Exported:   2024-06-29 16:50:31
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+affluenttx.org	3600	IN	SOA	naomi.ns.cloudflare.com. dns.cloudflare.com. 2047134643 10000 2400 604800 3600
+
+;; NS Records
+affluenttx.org.	86400	IN	NS	naomi.ns.cloudflare.com.
+affluenttx.org.	86400	IN	NS	rodney.ns.cloudflare.com.
+
+;; CNAME Records
+inwpizl7nq7n.affluenttx.org.	1	IN	CNAME	gv-nt7py65a7b2thj.dv.googlehosted.com.
+ww.affluenttx.org.	1	IN	CNAME	gv-nt7py65a7b2thj.dv.googlehosted.com.
+
+;; TXT Records
+www.affluenttx.org.	1	IN	TXT	"google-site-verification=vHXj18lAuijoZpx-06rguPAow8Bl00mup-72PlD11x4."
+www.affluenttx.org.	1	IN	TXT	"google-site-verification=vHXj18lAuijoZpx-06rguPAow8Bl00mup-72PlD11x4"
